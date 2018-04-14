@@ -6,6 +6,8 @@ int main () {
    time_t t;
 
    n = 5;
+   for(i=0;i<n;i++)
+   {
    srand((unsigned) time(&t));
    for( i = 0 ; i < n ; i++ ) {
       printf("%d\n", rand() % 50);
