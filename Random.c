@@ -1,15 +1,9 @@
 #include<stdlib.h>
-
 #include<stdio.h>
-
-
 int largest(int[],int,int);
-
-
 int main()
 
 {
-
 	int n=10,i;
 
 	int a[n];
@@ -23,7 +17,6 @@ int main()
 		scanf("%d",&a[i]);
 
 	}
-
 
 	int last=10000;//largest value that no. of gift not exceed
     int num=0,temp;
